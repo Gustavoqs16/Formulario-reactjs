@@ -1,4 +1,7 @@
 .container{
-    min-height: auto;
-    background: #eee;
-} 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 2px;
+}
+
