@@ -1,7 +1,6 @@
 import { Header } from "./components/Header/Header";
 import  FormUser from "./components/Form/FormUser";
 import "./App.css";
-import CardDescription from "./components/CardDescription/CardDescription";
 
 function App() {
   return (

@@ -12,11 +12,8 @@
     "react-router-dom": "^6.1.1",
     "react-scripts": "4.0.3",
     "react-tooltip": "^4.2.21",
-<<<<<<< Updated upstream
-=======
     "reactstrap": "^9.0.1",
     "styled-components": "^5.3.3",
->>>>>>> Stashed changes
     "web-vitals": "^1.0.1"
   },
   "scripts": {
