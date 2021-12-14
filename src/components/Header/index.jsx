@@ -3,16 +3,6 @@ import { Container, Form } from "reactstrap";
 import "./styles.css";
 
 export const Header = () => (
-<<<<<<< Updated upstream:src/components/Header/index.jsx
-  <div className="header">
-    <a href="#default" className="personalName">
-      Gustavo Queir&oacute;z de Souza
-    </a>
-    <div className="header-right">
-      <a href="#contact">Contato</a>
-    </div>
-  </div>
-=======
   <Navbar bg="primary" variant="dark" expand={false}>
   <Container fluid>
     <Navbar.Brand href="#">NavBar</Navbar.Brand>
@@ -51,5 +41,4 @@ export const Header = () => (
     </Navbar.Offcanvas>
   </Container>
 </Navbar>
->>>>>>> Stashed changes:src/components/Header/Header.jsx
 );
