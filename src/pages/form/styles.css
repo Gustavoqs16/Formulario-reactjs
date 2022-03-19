@@ -8,3 +8,10 @@
     background-repeat: no-repeat; /* this is important */
     border: 5px solid transparent;
 }
+
+input, select{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 3px solid dodgerblue !important;
+}
