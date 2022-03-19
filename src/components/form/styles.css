@@ -1,3 +1,15 @@
+<<<<<<< HEAD
 .content{
     width: 50%;
+=======
+.formUserContainer{
+    width: inherit;
+    border-radius: 15px 15px 15px 15px;
+    padding: 32px;
+    background: linear-gradient(#fff, #fff), 
+              linear-gradient(to bottom, dodgerblue,rgb(217, 236, 255) , rgb(217, 236, 255), dodgerblue);
+    background-origin: padding-box, border-box;
+    background-repeat: no-repeat; /* this is important */
+    border: 5px solid transparent;
+>>>>>>> developer
 }
