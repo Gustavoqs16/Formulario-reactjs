@@ -7,8 +7,8 @@ import {
   Row,
   Label,
 } from "reactstrap";
-import CardDescription from "../CardDescription/CardDescription";
-import DragDrop from "../DragDrop/DragDrop";
+import CardDescription from "../../components/cardDescription/CardDescription";
+import DragDrop from "../../components/dragDrop/DragDrop";
 import './styles.css';
 
 const FormUser = () => {

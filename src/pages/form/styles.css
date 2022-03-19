@@ -11,5 +11,16 @@
     background-origin: padding-box, border-box;
     background-repeat: no-repeat; /* this is important */
     border: 5px solid transparent;
+<<<<<<< HEAD:src/components/form/styles.css
 >>>>>>> developer
 }
+=======
+}
+
+input, select{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 3px solid dodgerblue !important;
+}
+>>>>>>> 7cf52f476ffc3aa6e9fba23773e5cb9d368191c0:src/pages/form/styles.css
