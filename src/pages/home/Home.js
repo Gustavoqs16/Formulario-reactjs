@@ -1,4 +1,4 @@
-import { Header } from "../../components/header/Header";
+//import { Header } from "../../components/header/Header";
 import FormUser from "../form/FormUser";
 import "./Home.css";
 
@@ -8,12 +8,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className="App">
-      <Header />
-      <div className="container-fluid">
-        <div className="container">
-          <FormUser />
-        </div>
-      </div>
+      <FormUser />
     </div>
   );
 }

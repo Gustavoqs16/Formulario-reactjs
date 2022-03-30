@@ -1,4 +1,114 @@
 <<<<<<< HEAD
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 2px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+h4 {
+    color: #f0a500;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+
+.formUserContainer{
+    padding: 3em;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    background-image: linear-gradient(#fff8e9, #eeecec, #fff8e9);
+    border-radius: 10px 10px 10px 10px;
+}
+
+div.btnSubmit {
+    display: flex;
+    justify-content: space-around;
+}
+
+button[type="submit"] {
+    padding: 1em;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #f0a500;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #999;
+    width: 150px;
+  }
+  
+  button[type="submit"]:hover {background-color: #bd8100}
+  
+  button[type="submit"]:active {
+    background-color: #f0a500;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+input,
+input[type="radio"] + label,
+select option,
+select {
+  width: 100%;
+  padding: 1em;
+  line-height: 1.4;
+  background-color: #f0a500;
+  border: 1px solid #f0a500;
+  border-radius: 3px;
+  -webkit-transition: 0.35s ease-in-out;
+  -moz-transition: 0.35s ease-in-out;
+  -o-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+input[type="checkbox"] {
+    padding: 7px;
+}
+
+input:focus {
+    outline: 0;
+    border-color: #bd8200;
+  }
+  input:focus{
+    color: #f0a500;
+  }
+  input:focus:after {
+    border-right-color: #f0a500;
+  }
+
+
+  input:focus {
+    outline: 0;
+    border-color: #bd8200;
+  }
+  input:focus {
+    color: #f0a500;
+  }
+  input:focus:after {
+    border-right-color: #f0a500;
+  }
+  
+  @media only screen and (max-width: 540px) {
+    .col-half {
+      width: 100%;
+      padding-right: 0;
+    }
+  }
+=======
+<<<<<<< HEAD
 .content{
     width: 50%;
 =======
@@ -24,3 +134,4 @@ input, select{
     border-bottom: 3px solid dodgerblue !important;
 }
 >>>>>>> 7cf52f476ffc3aa6e9fba23773e5cb9d368191c0:src/pages/form/styles.css
+>>>>>>> 40d3159d75e9fe5ac882aa96447c2321b4d847ea
