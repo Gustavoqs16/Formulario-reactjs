@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *,
 *:before,
 *:after {
@@ -106,3 +107,31 @@ input:focus {
       padding-right: 0;
     }
   }
+=======
+<<<<<<< HEAD
+.content{
+    width: 50%;
+=======
+.formUserContainer{
+    width: inherit;
+    border-radius: 15px 15px 15px 15px;
+    padding: 32px;
+    background: linear-gradient(#fff, #fff), 
+              linear-gradient(to bottom, dodgerblue,rgb(217, 236, 255) , rgb(217, 236, 255), dodgerblue);
+    background-origin: padding-box, border-box;
+    background-repeat: no-repeat; /* this is important */
+    border: 5px solid transparent;
+<<<<<<< HEAD:src/components/form/styles.css
+>>>>>>> developer
+}
+=======
+}
+
+input, select{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 3px solid dodgerblue !important;
+}
+>>>>>>> 7cf52f476ffc3aa6e9fba23773e5cb9d368191c0:src/pages/form/styles.css
+>>>>>>> 40d3159d75e9fe5ac882aa96447c2321b4d847ea
